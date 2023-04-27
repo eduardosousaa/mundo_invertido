@@ -17,7 +17,7 @@ btnSubscribe.addEventListener('click', async () =>{
             character: txtCharacter.value
         }
 
-        //Salvar no banco de dados
+        //Salvar no banco de dados.
         const subscriptionId = await subscribeToToHellfireClub(subscription)
 
         alert('Parabéns ' + txtName.value + ', agora você faz parte do clube de D&D mais famoso de Hawkings')
